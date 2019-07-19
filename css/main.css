@@ -2261,9 +2261,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .primary-btn, .single-product:hover .details .primary-btn, .about-video-right .overlay-bg, .blog-area .detais .tags li, .footer-social a:hover {
-  background-image: -moz-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
-  background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  #background-image: -moz-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  #background-image: -webkit-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
+  #background-image: -ms-linear-gradient(0deg, #828fff 0%, #d496ff 100%);
 }
 
 .p1-gradient-color {
@@ -2341,7 +2341,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/banner-bg.jpg) center;
+  background: url(../img/black_tex.jpg) center;
   background-size: cover;
 }
 
@@ -2456,6 +2456,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-right {
+  color: #fff;
   padding-right: 20%;
   padding-left: 4%;
 }
@@ -2468,6 +2469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-right h1 {
+  color: #fff;
   padding: 20px 0;
 }
 
@@ -2478,6 +2480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-right h5 {
+  color: #fff;
   margin-bottom: 20px;
   font-weight: 300;
 }
@@ -2539,7 +2542,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-area {
-  background: url(../img/feature-bg.jpg) center;
+  background: url(../img/black_tex.jpg) center;
+  background-size: cover;
+}
+
+.products-area {
+  background: url(../img/white_tex.jpg) center;
+  background-size: cover;
+}
+
+.home-about-area {
+  background: url(../img/black_tex.jpg) center;
+  background-size: cover;
+}
+
+.about-video-area {
+  background: url(../img/white_tex.jpg) center;
   background-size: cover;
 }
 
@@ -2649,7 +2667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  background: url(../img/footer-bg.jpg) center;
+  background: url(../img/black_tex.jpg) center;
   background-size: cover;
   padding-top: 100px;
 }
