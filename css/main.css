@@ -1958,7 +1958,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(138, 144, 255, 0.9);
+  #background: rgba(0, 0, 0, 0.5);
+  background: url(../img/black_tex.jpg) center;
+  opacity: 0.8;
   transition: all 0.5s;
 }
 
@@ -2393,8 +2395,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-btn {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff !important;
+}
+
+.header-btn:hover {  
   background: #fff;
-  border-radius: 0;
+  #border-radius: 0;
   color: #222 !important;
   padding-left: 30px;
   padding-right: 30px;
@@ -2402,10 +2410,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-.header-btn:hover {
-  border: 1px solid #fff;
-  background: transparent;
-  color: #fff !important;
+.products-area {
+  background: url(../img/white_tex.jpg) center;
+  background-size: cover;
 }
 
 .single-product {
@@ -2431,8 +2438,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-product .details .primary-btn {
   margin-top: 10px;
-  border-radius: 0;
-  background: #fff;
+  #border-radius: 0;
+  border: 1px solid #222;
+  background: transparent;
   color: #222 !important;
   font-weight: 600;
 }
@@ -2442,6 +2450,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-product:hover .details .primary-btn {
+  background: #222;
+  border: 1px solid transparent;
   color: #fff !important;
 }
 
@@ -2449,6 +2459,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-product {
     margin-bottom: 30px;
   }
+}
+
+.home-about-area {
+  background: url(../img/black_tex.jpg) center;
+  background-size: cover;
 }
 
 .home-about-left img {
@@ -2493,6 +2508,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .home-about-right {
     margin-top: 50px;
   }
+}
+
+.about-video-area {
+  background: url(../img/white_tex.jpg) center;
+  background-size: cover;
 }
 
 .about-video-left h6 {
@@ -2543,21 +2563,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .feature-area {
   background: url(../img/black_tex.jpg) center;
-  background-size: cover;
-}
-
-.products-area {
-  background: url(../img/white_tex.jpg) center;
-  background-size: cover;
-}
-
-.home-about-area {
-  background: url(../img/black_tex.jpg) center;
-  background-size: cover;
-}
-
-.about-video-area {
-  background: url(../img/white_tex.jpg) center;
   background-size: cover;
 }
 
